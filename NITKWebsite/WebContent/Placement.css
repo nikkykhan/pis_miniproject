@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+     
+    text-align: justify;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background:#042331 ;
+    align-items: center;
+}
+
+.sidebar ul li a{
+    margin-right: 16px;
+}
+
+.sidebar header{
+    line-height: 55px;
+    
+    user-select: none;
+    
+    /* margin-top: 8px; */
+    background:#063146 ;
+}
+
+#logo img{
+    
+    height: 100px;
+    margin: 12px 55px;
+}
+
+
+.sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 57px;
+    font-size: 1.6rem;
+    color: white;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+    
+
+}
+.sidebar ul li:hover a{
+    padding-left: 55px;
+}
+ul li :hover a{
+    padding-left: 65px;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height : 45px;
+}
+
+.subitems{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#sidebar .sub a{
+    text-align: center;
+    /* display: none;*/  
+    
+}
+
+ ul li a:hover ul li a{
+    display: block;
+} 
+
+.col{
+    padding-left: 11rem;
+}
+hr.border{
+    padding: 0.5px;
+    border: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    padding: 43px 20px;
+    /* margin-left: 10rem; */
+    /* height: 380px; */
+    justify-content: center;
+    /* Order now button which took entire width was reduced to its own size after align-items:center */
+    align-items: center;
+    font-weight: 1.2rem;
+    font-size: 1.2rem;
+}
+
+/* .statistics .img{
+    width:60vw;
+    height: 2rem;
+    padding-top: 1.3rem;
+    padding-left: 4rem;
+} */
+
+.images{
+    padding-left: 12rem;
+    padding-top: 3.2rem;
+}
+
+#text{
+    margin-left: 16rem;
+    padding-bottom: 1.9rem;
+}
+
+div .img{
+    height: 300px;
+    width: 900px;
+    padding-top: 1.2rem;
+    /* padding-bottom: 1.2rem; */
+    
+}
+
+ #img1{
+   padding-left: -52rem;
+} 
+
+p{
+	font-size: 1.5rem;
+}
+
+li{
+	font-size: 1.5rem;
+}
+
+/*div #firstimg{
+padding-left: 10rem;
+} */
